@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework Files">
+      <UniqueIdentifier>{6698153E-D223-8302-DB34-06F7473FDF02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework Files\Camera">
+      <UniqueIdentifier>{0BAC657A-F7A5-8ECC-E012-25DDCCABF438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{D2C057BE-BE78-990B-2780-7267135734FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Scenes">
+      <UniqueIdentifier>{AF1FE3F6-1B36-E18C-64AD-6CAED002B214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework Files\Managers">
+      <UniqueIdentifier>{300A1AE7-1C2F-6967-457A-4EF731FE6785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Prefabs">
+      <UniqueIdentifier>{F14A510F-DD2E-1265-468F-0CB83292FCE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework Files\Content">
+      <UniqueIdentifier>{3D83DDE7-A9BA-257F-B2C4-89A21E7B4C78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework Files\Helpers">
+      <UniqueIdentifier>{B5BA4651-21F2-8EE8-2AFC-F20B96B2B5E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework Files\SceneGraph">
+      <UniqueIdentifier>{C2CA98AA-AEDA-447B-1794-A99903C33314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Main">
+      <UniqueIdentifier>{33C6B71B-9F51-25E0-A862-A8D4146D81E0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseCamera.h">
+      <Filter>Framework Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxDemoScene.h">
+      <Filter>Game Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CarouselScene.h">
+      <Filter>Game Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentLoader.h">
+      <Filter>Framework Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentManager.h">
+      <Filter>Framework Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CubePosColorNorm.h">
+      <Filter>Game Files\Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="CylinderPosColorNorm.h">
+      <Filter>Game Files\Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsTextureLoader.h">
+      <Filter>Framework Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsTextureResource.h">
+      <Filter>Framework Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Framework Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectLoader.h">
+      <Filter>Framework Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeCamera.h">
+      <Filter>Framework Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase.h" />
+    <ClInclude Include="GameContext.h">
+      <Filter>Framework Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Framework Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Framework Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Framework Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="GimbalRig.h">
+      <Filter>Game Files\Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="GimbalRigScene.h">
+      <Filter>Game Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GP2_RenderingPipeline.h" />
+    <ClInclude Include="MainGame.h">
+      <Filter>Game Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysxAllocator.h" />
+    <ClInclude Include="PhysxErrorCallback.h" />
+    <ClInclude Include="SceneManager.h">
+      <Filter>Framework Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Framework Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Framework Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="TorusPosColorNorm.h">
+      <Filter>Game Files\Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="VariadicSingleton.h" />
+    <ClInclude Include="VertexStructs.h">
+      <Filter>Framework Files\Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseCamera.cpp">
+      <Filter>Framework Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxDemoScene.cpp">
+      <Filter>Game Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CarouselScene.cpp">
+      <Filter>Game Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ContentManager.cpp">
+      <Filter>Framework Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CubePosColorNorm.cpp">
+      <Filter>Game Files\Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="CylinderPosColorNorm.cpp">
+      <Filter>Game Files\Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsTextureLoader.cpp">
+      <Filter>Framework Files\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsTextureResource.cpp">
+      <Filter>Framework Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Framework Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectLoader.cpp">
+      <Filter>Framework Files\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeCamera.cpp">
+      <Filter>Framework Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBase.cpp" />
+    <ClCompile Include="GameContext.cpp">
+      <Filter>Framework Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Framework Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Framework Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Framework Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="GimbalRig.cpp">
+      <Filter>Game Files\Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="GimbalRigScene.cpp">
+      <Filter>Game Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GP2_RenderingPipeline.cpp" />
+    <ClCompile Include="main.cpp">
+      <Filter>Game Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Game Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysxErrorCallback.cpp" />
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Framework Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Framework Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="TorusPosColorNorm.cpp">
+      <Filter>Game Files\Prefabs</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
